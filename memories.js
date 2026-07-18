@@ -1,5 +1,6 @@
 
 const MEMORIES = [
+  // { file: "photos/example.jpg", note: "write something sweet here", date: "2026-01-01" },
       {file: "photos/Messenger_creation_47079780-5A61-4B75-8A08-5FA5FA6F2F2E.jpeg", note: "SU ZAIZAI??? HAHAHAH"},
       {file: "photos/Messenger_creation_0F28C969-201D-4883-9CB1-C6E6D972F827.jpeg", note: "😝😝😝"},
       {file: "photos/Messenger_creation_7B1E3A3E-F677-4B63-9867-DFB0D3A4064A.png", note: "gwapaha nimo uyyy"},
@@ -16,10 +17,16 @@ const MEMORIES = [
       {file: "photos/Messenger_creation_374CA784-0116-4810-BAF3-82D5C0700BD7.jpeg", note: "maypang paint, nakahikap sa iya aping 🥺"},
       {file: "photos/Messenger_creation_400ACB67-0C52-4C9E-83A3-EBCC121207DC.jpeg", note: "ah mura sad shag taas tan awn ari"},
       {file: "photos/Messenger_creation_3575F9FF-C5DF-4CA9-B850-577A1DFA9E42.jpeg", note: "nindotas imo buhok 😚😚"},
-      {file: "photos/Messenger_creation_37749707-7A52-4584-B25D-30B55EF657C5.jpeg", note: "gwapa kayka promise 🩷🩷🩷"},
-      {file: "photos/Messenger_creation_CFE55CBD-5E76-4E9C-9C28-76C4E3429477.jpeg", note: "iyang asawa napod..."} 
-    ];    
+      {file: "photos/Messenger_creation_37749707-7A52-4584-B25D-30B55EF657C5.jpeg", note: "gwapa kayka promiseeee 🩷"},
+      {file: "photos/Messenger_creation_CFE55CBD-5E76-4E9C-9C28-76C4E3429477.jpeg", note: "iyang asawa napod..."},
+      {file: "photos/Messenger_creation_B540D91A-3815-4B28-8394-832A93564C0E.jpeg", note: "ganda mo pa rin kahit libat😲", date: "2026-07-18"},
+      {file: "photos/Messenger_creation_02F09729-1395-4F40-A99C-8E4188ECB9A1.jpeg", note: "bat di naka matcha to? 🤨", date: "2026-07-18"},
+      {file: "photos/Messenger_creation_55817D5A-04BC-4848-A6D6-877752A6595C.jpeg", note: "gwapaha ani oy, mao ni ang bride???", date: "2026-07-18"},
+      {file: "photos/Messenger_creation_BDDDE4C3-F911-4D58-BAA8-47E3500163CE.jpeg", note: "🩷🩷🩷🩷", date: "2026-07-18"}
+    ];
+
 
 const STICKERS = [
-  
+  // "stickers/sticker-1.png",
+  // "stickers/sticker-2.png",
 ];
