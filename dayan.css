@@ -45,7 +45,7 @@
     0%,100%{ transform:translateY(0) rotate(0deg); }
     50%{ transform:translateY(-18px) rotate(12deg); }
   }
-  @media (prefers-reduced-motion: reduce){
+  @media (prefers-reduced-motion: reduce) {
     .sparkle{ animation:none; }
   }
 

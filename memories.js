@@ -22,7 +22,10 @@ const MEMORIES = [
       {file: "photos/Messenger_creation_B540D91A-3815-4B28-8394-832A93564C0E.jpeg", note: "ganda mo pa rin kahit libat😲", date: "2026-07-18"},
       {file: "photos/Messenger_creation_02F09729-1395-4F40-A99C-8E4188ECB9A1.jpeg", note: "bat di naka matcha to? 🤨", date: "2026-07-18"},
       {file: "photos/Messenger_creation_55817D5A-04BC-4848-A6D6-877752A6595C.jpeg", note: "gwapaha ani oy, mao ni ang bride???", date: "2026-07-18"},
-      {file: "photos/Messenger_creation_BDDDE4C3-F911-4D58-BAA8-47E3500163CE.jpeg", note: "🩷🩷🩷🩷", date: "2026-07-18"}
+      {file: "photos/Messenger_creation_BDDDE4C3-F911-4D58-BAA8-47E3500163CE.jpeg", note: "🩷🩷🩷🩷", date: "2026-07-18"},
+      {file: "photos/Messenger_creation_03C84015-25C3-40B2-BDE1-D117A5A5EF28.jpeg", note: "ka pretty ana oy😽😽", date: "2026-07-21"},
+      {file: "photos/Messenger_creation_21EADC65-35CA-4DA7-934A-AE0878D20FFC.jpeg", note: "sige iduol pa imo nawng dayan", date: "2026-07-21"},
+      {file: "photos/Messenger_creation_5C89199B-C47A-4CB8-8431-B85F1DD32FF0.jpeg", note: "\^o^/", date: "2026-07-21"}
     ];
 
 
