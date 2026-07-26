@@ -28,7 +28,9 @@ const MEMORIES = [
       {file: "photos/Messenger_creation_5C89199B-C47A-4CB8-8431-B85F1DD32FF0.jpeg", note: "\^o^/", date: "2026-07-21"},
       {file: "photos/1784991725550.jpg", note: "kaya rana, para sa grado🥺🥺", date: "2026-07-25"},
       {file: "photos/1784991732455.jpg", note: "masuko pod ba kaha ni shag ingnon nga liwat shas iyang papa?", date: "2026-07-25"},
-      {file: "photos/1784991739652.jpg", note: "sussss, lami kau pisilon ang bukton😤😤", date: "2026-07-25"}
+      {file: "photos/1784991739652.jpg", note: "sussss, lami kau pisilon ang bukton😤😤", date: "2026-07-25"},
+      {file: "photos/1785079680929.jpg", note: "", date: "2026-07-25"},
+      {file: "photos/1785079678351.jpg", note: "", date: "2026-07-25"}
     ];
 
 
