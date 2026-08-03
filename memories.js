@@ -30,7 +30,8 @@ const MEMORIES = [
       {file: "photos/1784991732455.jpg", note: "masuko pod ba kaha ni shag ingnon nga liwat shas iyang papa?", date: "2026-07-25"},
       {file: "photos/1784991739652.jpg", note: "sussss, lami kau pisilon ang bukton😤😤", date: "2026-07-25"},
       {file: "photos/1785079680929.jpg", note: "😽😽😽😽", date: "2026-07-25"},
-      {file: "photos/1785079678351.jpg", note: "gwapaha uy as in!!", date: "2026-07-25"}
+      {file: "photos/1785079678351.jpg", note: "gwapaha uy as in!!", date: "2026-07-25"},
+      {file: "photos/1785738196902.jpg", note: "CHOWKING nasad ilang trip oh" , date: "2026-08-03"}
     ];
 
 
