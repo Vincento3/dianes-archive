@@ -38,7 +38,7 @@ const MEMORIES = [
       {file: "photos/c64d0974-e896-457c-9f8a-b028d9a47687.jpg", note: "ako nay moingon, cute kayta 😽😽" , date: "2026-07-31"},
       {file: "photos/Messenger_creation_CEE42A89-077B-4E28-9061-3CA18E5B0530.jpeg", note: "", date: "2026-08-11"},
       {file: "photos/Messenger_creation_002ED155-6CAF-457A-85B4-B1DB4EB0A72F.jpeg", note: "🩷🩷🩷", date: "2026-08-11"},
-      {file: "Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"}
+      {file: "photos/Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"}
     ];
 
 
