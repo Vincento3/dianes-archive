@@ -35,7 +35,10 @@ const MEMORIES = [
       {file: "photos/d809fc31-8cd8-42d8-a423-b82b04905d14.jpg", note: "ako rani, si rangrang", date: "2026-07"},
       {file: "photos/aug6.jpg", note: "matcha lover talaga" , date: "2026-08-06"},
       {file: "photos/7776af99-f864-479b-b63d-f8108a1815e1.jpg", note: "ara na ang mga laagan", date: "2026-08-06"},
-      {file: "photos/c64d0974-e896-457c-9f8a-b028d9a47687.jpg", note: "ako nay moingon, cute kayta 😽😽" , date: "2026-07-31"}
+      {file: "photos/c64d0974-e896-457c-9f8a-b028d9a47687.jpg", note: "ako nay moingon, cute kayta 😽😽" , date: "2026-07-31"},
+      {file: "photos/Messenger_creation_CEE42A89-077B-4E28-9061-3CA18E5B0530.jpeg", note: "", date: "2026-08-11"},
+      {file: "photos/Messenger_creation_002ED155-6CAF-457A-85B4-B1DB4EB0A72F.jpeg", note: "🩷🩷🩷", date: "2026-08-11"},
+      {file: "Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"}
     ];
 
 
