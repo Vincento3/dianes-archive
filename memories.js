@@ -38,7 +38,9 @@ const MEMORIES = [
       {file: "photos/7776af99-f864-479b-b63d-f8108a1815e1.jpg", note: "ara na ang mga laagan", date: "2026-08-06"},
       {file: "photos/Messenger_creation_CEE42A89-077B-4E28-9061-3CA18E5B0530.jpeg", note: "", date: "2026-08-11"},
       {file: "photos/Messenger_creation_002ED155-6CAF-457A-85B4-B1DB4EB0A72F.jpeg", note: "🩷🩷🩷", date: "2026-08-11"},
-      {file: "photos/Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"}
+      {file: "photos/Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"},
+      {file: "photos/a632c2c6-3137-4c43-88fc-ac20403a71a0.jpg", note: "sleeping beauty"},
+      {file: "photos/bcf32d25-2779-43d1-8d2d-cff5b97d9759.jpg", note: "tambokikoyyyy 😝😝"}
     ];
 
 
