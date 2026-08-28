@@ -40,7 +40,10 @@ const MEMORIES = [
       {file: "photos/Messenger_creation_002ED155-6CAF-457A-85B4-B1DB4EB0A72F.jpeg", note: "🩷🩷🩷", date: "2026-08-11"},
       {file: "photos/Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"},
       {file: "photos/a632c2c6-3137-4c43-88fc-ac20403a71a0.jpg", note: "sleeping beauty"},
-      {file: "photos/bcf32d25-2779-43d1-8d2d-cff5b97d9759.jpg", note: "tambokikoyyyy 😝😝"}
+      {file: "photos/bcf32d25-2779-43d1-8d2d-cff5b97d9759.jpg", note: "tambokikoyyyy 😝😝"},
+      {file: "photos/cbb33d56-39fa-45c4-ac6e-4c6a224e048b.jpg", note: "murag manika oy 🥺🥺", date: "2026-08-28"},
+      {file: "photos/69252b73-146e-457e-a50b-266cc7b6c0e1.jpg", note: "", date: "2026-08-28"},
+      {file: "photos/4548e0bd-489e-4a35-806e-bbf9f087de81.jpg", note: "💏💏", date: "2026-08-28"}
     ];
 
 
