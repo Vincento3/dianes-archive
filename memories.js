@@ -1,4 +1,3 @@
-
 const MEMORIES = [
   // { file: "photos/example.jpg", note: "write something sweet here", date: "2026-01-01" },
       {file: "photos/Messenger_creation_47079780-5A61-4B75-8A08-5FA5FA6F2F2E.jpeg", note: "SU ZAIZAI??? HAHAHAH"},
@@ -41,9 +40,11 @@ const MEMORIES = [
       {file: "photos/Messenger_creation_CEE8F141-DF65-425D-BACA-90E92E02DAD6.jpeg", note: "aping aping aping", date: "2026-08-11"},
       {file: "photos/a632c2c6-3137-4c43-88fc-ac20403a71a0.jpg", note: "sleeping beauty"},
       {file: "photos/bcf32d25-2779-43d1-8d2d-cff5b97d9759.jpg", note: "tambokikoyyyy 😝😝"},
-      {file: "photos/cbb33d56-39fa-45c4-ac6e-4c6a224e048b.jpg", note: "murag manika oy 🥺", date: "2026-08-28"},
+      {file: "photos/cbb33d56-39fa-45c4-ac6e-4c6a224e048b.jpg", note: "murag manika 🥺", date: "2026-08-28"},
       {file: "photos/69252b73-146e-457e-a50b-266cc7b6c0e1.jpg", note: "", date: "2026-08-28"},
-      {file: "photos/4548e0bd-489e-4a35-806e-bbf9f087de81.jpg", note: "💏💏", date: "2026-08-28"}
+      {file: "photos/4548e0bd-489e-4a35-806e-bbf9f087de81.jpg", note: "💏💏", date: "2026-08-28"},
+      {file: "photos/f972465d-8e31-4616-b5a0-08524a46dfc7.jpg", note: "", date: "2026-08-28"},
+      {file: "photos/07bf571c-b8e7-4a0f-9e0d-d1c08cc441c2.jpg", note: "tomboy", date: "2026-08-31"}
     ];
 
 
