@@ -44,7 +44,10 @@ const MEMORIES = [
       {file: "photos/69252b73-146e-457e-a50b-266cc7b6c0e1.jpg", note: "", date: "2026-08-28"},
       {file: "photos/4548e0bd-489e-4a35-806e-bbf9f087de81.jpg", note: "💏💏", date: "2026-08-28"},
       {file: "photos/f972465d-8e31-4616-b5a0-08524a46dfc7.jpg", note: "", date: "2026-08-28"},
-      {file: "photos/07bf571c-b8e7-4a0f-9e0d-d1c08cc441c2.jpg", note: "tomboy", date: "2026-08-31"}
+      {file: "photos/07bf571c-b8e7-4a0f-9e0d-d1c08cc441c2.jpg", note: "tomboy", date: "2026-08-31"},
+      {file: "photos/47801b5d-35d9-4ac1-b8a7-539e04b59712.jpg", note: "🙈", date: "2026-09-05"},
+      {file: "photos/8a3ed2e7-7d1f-4f9d-af0b-2d5aed114bfc.jpg", note: "🙉", date: "2026-09-05"},
+      {file: "photos/f3274b2d-63b0-4edd-816a-96ba1ca817fb.jpg", note: "🙊", date: "2026-09-05"}
     ];
 
 
