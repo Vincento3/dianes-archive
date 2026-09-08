@@ -13,7 +13,7 @@ const MEMORIES = [
       {file: "photos/Messenger_creation_11ADECED-7EA1-40B2-9F3B-8B78AE7CC60E.jpeg", note: "di ta okay ani HAHAHAHAHA"},
       {file: "photos/Screenshot_20260402-050811.jpg", note: "all time fave nako😍😍😍"},
       {file: "photos/Screenshot_20260414-232515.jpg", note: "😶😶😶"},
-      {file: "photos/Messenger_creation_374CA784-0116-4810-BAF3-82D5C0700BD7.jpeg", note: "maypang paint, nakahikap sa iya aping 🥺"},
+      {file: "photos/Messenger_creation_374CA784-0116-4810-BAF3-82D5C0700BD7.jpeg", note: "🥺"},
       {file: "photos/Messenger_creation_400ACB67-0C52-4C9E-83A3-EBCC121207DC.jpeg", note: "ah mura sad shag taas tan awn ari"},
       {file: "photos/Messenger_creation_3575F9FF-C5DF-4CA9-B850-577A1DFA9E42.jpeg", note: "nindotas imo buhok 😚😚"},
       {file: "photos/Messenger_creation_37749707-7A52-4584-B25D-30B55EF657C5.jpeg", note: "gwapa kayka promise 🩷"},
@@ -47,7 +47,12 @@ const MEMORIES = [
       {file: "photos/07bf571c-b8e7-4a0f-9e0d-d1c08cc441c2.jpg", note: "tomboy", date: "2026-08-31"},
       {file: "photos/47801b5d-35d9-4ac1-b8a7-539e04b59712.jpg", note: "🙈", date: "2026-09-05"},
       {file: "photos/8a3ed2e7-7d1f-4f9d-af0b-2d5aed114bfc.jpg", note: "🙉", date: "2026-09-05"},
-      {file: "photos/f3274b2d-63b0-4edd-816a-96ba1ca817fb.jpg", note: "🙊", date: "2026-09-05"}
+      {file: "photos/f3274b2d-63b0-4edd-816a-96ba1ca817fb.jpg", note: "🙊", date: "2026-09-05"},
+      {file: "photos/Messenger_creation_A4019238-B35F-4CC2-9C50-401C9C3300F4.jpeg", note: "kiss ka?", date: "2026-09-07"},
+      {file: "photos/1788783009617.jpg", note: "", date: "2026-09-07"},
+      {file: "photos/1788808104285.jpg", note: "😉😉😉", date: "2026-09-07"},
+      {file: "photos/Messenger_creation_7895D83F-6340-4892-BBED-491FB3A7A53B.jpeg", note: "", date: "2026-09-07"},
+      {file: "photos/3e72c381-7b73-4c16-addf-1d21b72bc0a4.jpg", note: "ka fresh oy ", date: "2026-09-08"}
     ];
 
 
