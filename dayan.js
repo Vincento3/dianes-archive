@@ -31,6 +31,8 @@
   }));
   const stickers = (typeof STICKERS !== 'undefined' ? STICKERS : []);
 
+  document.getElementById('photo-count').textContent = memories.length;
+
   let viewMode = 'pile';
 
   /* ---------- Stickers ---------- */

@@ -52,7 +52,7 @@ const MEMORIES = [
       {file: "photos/1788783009617.jpg", note: "", date: "2026-09-07"},
       {file: "photos/1788808104285.jpg", note: "😉😉😉", date: "2026-09-07"},
       {file: "photos/Messenger_creation_7895D83F-6340-4892-BBED-491FB3A7A53B.jpeg", note: "", date: "2026-09-07"},
-      {file: "photos/3e72c381-7b73-4c16-addf-1d21b72bc0a4.jpg", note: "ka fresh oy ", date: "2026-09-08"}
+      {file: "photos/3e72c381-7b73-4c16-addf-1d21b72bc0a4.jpg", note: "ka fresh oy", date: "2026-09-08"}
     ];
 
 
