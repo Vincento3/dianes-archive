@@ -56,8 +56,8 @@
   /* ---------- Rendering ---------- */
   function render(){
     grid.innerHTML = '';
-    grid.className = 'pins-grid ' + viewMode;
-    grid.style.height = ''; // clear any height left over from the other view
+    grid.className = 'album-list';
+    grid.style.height = '';
 
     if(memories.length === 0){
       const empty = document.createElement('div');
@@ -66,17 +66,74 @@
       empty.innerHTML = '<span class="card-icon">🎀</span><h2>The wall is empty, for now</h2><p>Add photos to memories.js to fill this wall with your moments together.</p>';
       grid.appendChild(empty);
     } else {
-      memories.forEach((m) => grid.appendChild(buildCard(m)));
-    }
+      const albums = new Map();
+      const rest = [];
 
-    if(viewMode === 'pile') positionPile();
+      memories.forEach((memory) => {
+        const monthKey = getAlbumMonth(memory.date);
+        if(monthKey){
+          if(!albums.has(monthKey)) albums.set(monthKey, []);
+          albums.get(monthKey).push(memory);
+        } else {
+          rest.push(memory);
+        }
+      });
+
+      Array.from(albums.keys()).sort().reverse().forEach((monthKey) => {
+        appendAlbum(formatAlbumMonth(monthKey), albums.get(monthKey));
+      });
+      appendAlbum('Other pictures', rest);
+    }
   }
 
-  function positionPile(){
+  function getAlbumMonth(date){
+    let match = date.match(/^(\d{4})-(\d{2})(?:-\d{2})?$/);
+    if(match){
+      const monthKey = match[1] + '-' + match[2];
+      return monthKey >= '2026-09' ? monthKey : '';
+    }
+
+    match = date.match(/^(\d{2})-\d{2}-(\d{4})$/);
+    if(match){
+      const monthKey = match[2] + '-' + match[1];
+      return monthKey >= '2026-09' ? monthKey : '';
+    }
+
+    return '';
+  }
+
+  function formatAlbumMonth(monthKey){
+    const date = new Date(monthKey + '-01T00:00:00');
+    return date.toLocaleDateString(undefined, {month:'long', year:'numeric'});
+  }
+
+  function appendAlbum(title, albumMemories){
+    if(albumMemories.length === 0) return;
+
+    const album = document.createElement('section');
+    album.className = title ? 'album dated-album' : 'album';
+
+    if(title){
+      const heading = document.createElement('h2');
+      heading.className = 'album-title';
+      heading.textContent = title;
+      album.appendChild(heading);
+    }
+
+    const albumGrid = document.createElement('div');
+    albumGrid.className = 'pins-grid ' + viewMode;
+    albumMemories.forEach((memory) => albumGrid.appendChild(buildCard(memory)));
+    album.appendChild(albumGrid);
+    grid.appendChild(album);
+
+    if(viewMode === 'pile') positionPile(albumGrid, albumMemories);
+  }
+
+  function positionPile(targetGrid, albumMemories){
     // arrange cards in a loose overlapping pile, sized to fit whatever
     // the board's actual width is and however many photos there are
-    const cards = Array.from(grid.querySelectorAll('.polaroid'));
-    if(cards.length === 0){ grid.style.height = ''; return; }
+    const cards = Array.from(targetGrid.querySelectorAll('.polaroid'));
+    if(cards.length === 0){ targetGrid.style.height = ''; return; }
 
     const boardWidth = board.clientWidth - 40; // leave a little breathing room on each side
     const cardWidth = cards[0].offsetWidth;
@@ -91,7 +148,7 @@
     const cols = Math.max(1, Math.floor((boardWidth - cardWidth) / stepX) + 1);
 
     cards.forEach((card, i) => {
-      const h = hashOf(memories[i] ? memories[i].id : ('x'+i));
+      const h = hashOf(albumMemories[i] ? albumMemories[i].id : ('x'+i));
       const col = i % cols;
       const row = Math.floor(i / cols);
       const jitterX = (h % Math.round(jitterRange * 2)) - jitterRange;
@@ -104,10 +161,17 @@
     });
 
     const rowsTotal = Math.ceil(cards.length / cols);
-    grid.style.height = ((rowsTotal - 1) * stepY + cardHeight + 40) + 'px';
+    targetGrid.style.height = ((rowsTotal - 1) * stepY + cardHeight + 40) + 'px';
   }
 
-  window.addEventListener('resize', () => { if(viewMode === 'pile') positionPile(); });
+  window.addEventListener('resize', () => {
+    if(viewMode !== 'pile') return;
+    document.querySelectorAll('.pins-grid.pile').forEach((albumGrid) => {
+      const albumMemories = Array.from(albumGrid.querySelectorAll('.polaroid'))
+        .map((card) => memories.find((memory) => memory.id === card.dataset.memoryId));
+      positionPile(albumGrid, albumMemories);
+    });
+  });
 
   document.getElementById('btn-pile').addEventListener('click', () => setView('pile'));
   document.getElementById('btn-lined').addEventListener('click', () => setView('lined'));
@@ -121,6 +185,7 @@
   function buildCard(m){
     const el = document.createElement('div');
     el.className = 'polaroid';
+    el.dataset.memoryId = m.id;
     el.style.setProperty('--rot', rotationFor(m.id));
     el.tabIndex = 0;
     el.setAttribute('role','button');

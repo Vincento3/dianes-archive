@@ -52,7 +52,15 @@ const MEMORIES = [
       {file: "photos/1788783009617.jpg", note: "", date: "2026-09-07"},
       {file: "photos/1788808104285.jpg", note: "😉😉😉", date: "2026-09-07"},
       {file: "photos/Messenger_creation_7895D83F-6340-4892-BBED-491FB3A7A53B.jpeg", note: "", date: "2026-09-07"},
-      {file: "photos/3e72c381-7b73-4c16-addf-1d21b72bc0a4.jpg", note: "ka fresh oy", date: "2026-09-08"}
+      {file: "photos/3e72c381-7b73-4c16-addf-1d21b72bc0a4.jpg", note: "ka fresh oy", date: "2026-09-08"},
+      {file: "photos/4655e166-49bd-4a73-b834-0109fa75c5fb.jpg", note:"🤯🤯🤯", date: "09-11-2026"},
+      {file: "photos/6738256d-8877-4b67-80ac-b19e8e62f603.jpg", note: "eeeeeeeeeeeeeee", date: "09-11-2026"},
+      {file: "photos/16a1344c-166e-407a-9829-5006fbecd820.jpg", note: "ahhhhhhhh gwapahaaaaaaa", date: "09-11-2026"},
+      {file: "photos/5d553acd-42ec-4fd6-9fcd-bc0cd851a192.jpg", note:"", date: "09-11-2026"},
+      {file: "photos/5edfb196-f161-484a-85e1-a32948f95525.jpg", note: "😍😍😍", date: "09-11-2026"},
+      {file: "photos/3aef9750-1e05-4059-8911-510d8a03f8ac.jpg", note: "😎😎😎", date: "09-11-2026"},
+      {file: "photos/ecf3986c-f2b3-49d1-b965-12ba6d3f3453.jpg", note: "😉😉😉", date: "09-11-2026"},
+      {file: "photos/618059d5-ced7-4476-b05a-e8e863c0e7b5.jpg", note: "mo-kiss ang dev ani biiii", date: "09-11-2026"}
     ];
 
 

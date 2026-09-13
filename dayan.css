@@ -144,6 +144,17 @@
     padding:44px 30px;
   }
 
+  .album + .album{ margin-top:34px; }
+  .album-title{
+    font-family:'Baloo 2', sans-serif;
+    font-size:25px;
+    line-height:1.2;
+    color:var(--pink-deep-dark);
+    margin:0 4px 16px;
+    padding-bottom:8px;
+    border-bottom:2px dashed rgba(232,85,143,0.3);
+  }
+
   
   .pins-grid.pile{
     position:relative;
@@ -151,6 +162,7 @@
     height:auto;
     min-height:520px;
   }
+  .album .pins-grid.pile{ min-height:0; }
   .pins-grid.pile .polaroid{
     position:absolute;
   }
@@ -356,6 +368,7 @@
 
   @media (max-width:520px){
     .board{ padding:30px 16px; }
+    .album-title{ font-size:22px; }
     .polaroid{ width:145px; }
     .polaroid img{ height:125px; }
     .sticker-slot{ width:48px; height:48px; }
