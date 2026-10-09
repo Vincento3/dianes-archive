@@ -61,6 +61,7 @@ const MEMORIES = [
       {file: "photos/3aef9750-1e05-4059-8911-510d8a03f8ac.jpg", note: "😎😎😎", date: "09-11-2026"},
       {file: "photos/ecf3986c-f2b3-49d1-b965-12ba6d3f3453.jpg", note: "😉😉😉", date: "09-11-2026"},
       {file: "photos/618059d5-ced7-4476-b05a-e8e863c0e7b5.jpg", note: "mo-kiss ang dev ani biiii", date: "09-11-2026"},
+      {file: "photos/Screenshot_20261004-151800.jpg", note: "talikdan man ta ah", date: "10-04-2026"},
       {file: "photos/7cf72ae5-3cf4-4029-b119-5b71b60d18b2.jpg", note: "😍😍", date: "10-04-2026"},
       {file: "photos/92c3e9b5-2cc1-43fc-9f7d-f2ab3a78fb32.jpg", note: "kagwapa uy murag wala na stress sa physics", date: "10-04-2026"},
       {file: "photos/ec9202ee-227a-45ea-b1ef-a6989c2caf88.jpg", note: "naa juy potential", date: "10-08-2026"},
