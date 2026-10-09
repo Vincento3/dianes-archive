@@ -22,7 +22,6 @@
     }catch(e){ return ''; }
   }
 
-  // MEMORIES / STICKERS come from memories.js, loaded before this file.
   const memories = (typeof MEMORIES !== 'undefined' ? MEMORIES : []).map((m, i) => ({
     id: 'm' + i,
     photo: m.file,
@@ -35,7 +34,7 @@
 
   let viewMode = 'pile';
 
-  /* ---------- Stickers ---------- */
+  
   function loadStickers(){
     [1,2].forEach((num, idx) => {
       const slot = document.getElementById('sticker-' + num);
@@ -53,7 +52,7 @@
     });
   }
 
-  /* ---------- Rendering ---------- */
+
   function render(){
     grid.innerHTML = '';
     grid.className = 'album-list';
@@ -214,7 +213,7 @@
     return el;
   }
 
-  /* ---------- Lightbox (view only) ---------- */
+
   const lbBackdrop = document.getElementById('lb-backdrop');
   const lbPhoto = document.getElementById('lb-photo');
   const lbDate = document.getElementById('lb-date');

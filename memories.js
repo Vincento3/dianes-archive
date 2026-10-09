@@ -45,7 +45,7 @@ const MEMORIES = [
       {file: "photos/4548e0bd-489e-4a35-806e-bbf9f087de81.jpg", note: "💏💏", date: "2026-08-28"},
       {file: "photos/f972465d-8e31-4616-b5a0-08524a46dfc7.jpg", note: "", date: "2026-08-28"},
       {file: "photos/07bf571c-b8e7-4a0f-9e0d-d1c08cc441c2.jpg", note: "tomboy", date: "2026-08-31"},
-      {file: "photos/47801b5d-35d9-4ac1-b8a7-539e04b59712.jpg", note: "🙈", date: "2026-09-05"},
+      {file: "photos/47801b5d-35d9-4ac1-b8a7-539e04b59712.,jpg", note: "🙈", date: "2026-09-05"},
       {file: "photos/8a3ed2e7-7d1f-4f9d-af0b-2d5aed114bfc.jpg", note: "🙉", date: "2026-09-05"},
       {file: "photos/f3274b2d-63b0-4edd-816a-96ba1ca817fb.jpg", note: "🙊", date: "2026-09-05"},
       {file: "photos/Messenger_creation_A4019238-B35F-4CC2-9C50-401C9C3300F4.jpeg", note: "kiss ka?", date: "2026-09-07"},
@@ -60,7 +60,11 @@ const MEMORIES = [
       {file: "photos/5edfb196-f161-484a-85e1-a32948f95525.jpg", note: "😍😍😍", date: "09-11-2026"},
       {file: "photos/3aef9750-1e05-4059-8911-510d8a03f8ac.jpg", note: "😎😎😎", date: "09-11-2026"},
       {file: "photos/ecf3986c-f2b3-49d1-b965-12ba6d3f3453.jpg", note: "😉😉😉", date: "09-11-2026"},
-      {file: "photos/618059d5-ced7-4476-b05a-e8e863c0e7b5.jpg", note: "mo-kiss ang dev ani biiii", date: "09-11-2026"}
+      {file: "photos/618059d5-ced7-4476-b05a-e8e863c0e7b5.jpg", note: "mo-kiss ang dev ani biiii", date: "09-11-2026"},
+      {file: "photos/7cf72ae5-3cf4-4029-b119-5b71b60d18b2.jpg", note: "😍😍", date: "10-04-2026"},
+      {file: "photos/92c3e9b5-2cc1-43fc-9f7d-f2ab3a78fb32.jpg", note: "kagwapa uy murag wala na stress sa physics", date: "10-04-2026"},
+      {file: "photos/ec9202ee-227a-45ea-b1ef-a6989c2caf88.jpg", note: "naa juy potential", date: "10-08-2026"},
+      {file: "photos/db858a84-ac40-4851-9206-8d0d4ac2c5d6.jpg", note: "gwapa kaau ang artist oh", date: "10-08-2026"}
     ];
 
 
